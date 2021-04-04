@@ -1,0 +1,421 @@
+body {
+	font-family: Raleway;
+}
+
+.flex-container {
+    background-color: #F2F2F2;
+	height: 590px;
+	width: 1000px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+  }
+  
+ .flex-container2 {
+    background-color: #F2F2F2;
+	height: 590px;
+	width: 380px;
+    border-radius: 16px;
+    
+  }
+  
+ .row {
+ 	background-color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.menu {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  overflow: hidden;
+  background-color: white;
+  color: #0065FC;
+  float: right;   
+}
+
+
+li a {
+  display: block;
+  color: #0065FC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu > li a:hover {
+	text-decoration: underline;
+}
+
+
+.active {
+  color: black;
+}	
+
+.logo {
+	float: left;
+    height: 60px;
+    width: 160px;
+    padding: 25px 0px 25px 0px;
+}
+
+.logo img {
+	object-fit: contain;
+    height: 60px;
+    width: 150px;
+}
+
+.links {
+  text-align: center;
+  width: 10em;
+  height: 5px;
+  background-color: white;
+  font-size: 15px;
+}
+
+.reservia-description {
+	display: block;
+}
+
+.reservia-description > h1{
+	padding: 0px;
+}
+
+.reservia-description > p{
+	padding-bottom: 20px;
+}
+
+.searching {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  padding: 20px 20px 3px 0px;
+  font-size: 15px;
+}
+
+.searching > li {
+  background-color: white;
+  color: Black;
+  line-height: 35px;
+}
+
+.second a {
+  color: Black;
+  padding: 0px 0px 20px 0px;
+  border: solid 2px #ddd;
+  border-radius: 20px;
+  width: 150px;
+  height: 15px;
+  font-size: 13px;
+}
+
+.second a:hover {
+	border: solid 2px black;
+}
+
+.button {
+  background-color: #DEEBFF; 
+  color: #0065FC;
+  border: none;
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  float: left;
+  padding: 3px;
+}
+
+
+.filter {
+  border: none;
+  display: inline;
+  color: Black;
+  text-align: center;
+  padding: 16px;
+}
+
+
+.info {
+	width: 400px;
+    padding-left: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.info > button {
+	background-color: white;
+    border: none;
+    font-size: 20px;
+    color: #0065FC;
+    
+}
+
+.info > p {
+	padding-top: 15px;
+}
+
+h1 {
+	font-size: 20px;
+    
+}
+
+h3 {
+	padding-left: 20px;
+}
+
+.show-more {
+	padding-left: 20px;
+    font-size: 15px; 
+}
+
+#main{
+    background-color: #eee;
+    border-radius: 9px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+  }
+
+  #main > div {
+    background-color: white;
+    box-shadow: 0 0 3px #ccc;
+    border: solid 2px #eee;
+    border-radius: 12px;
+    margin: 1rem;
+    width: 220px;
+    height: 200px;
+  }
+  #main > div > img{
+    width: 210px;
+    height: 100px;
+    border-radius: 12px 12px 0px 0px; 
+    object-fit: cover;
+    padding: 5px;
+  }
+  
+#main > div:hover {
+	border: solid 2px black;
+}
+
+  .desc{
+  font-size: 16px;
+  padding: 5px;
+ }
+
+.desc > i {
+	color: #0065FC;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+  .desc h4{
+    margin: 0;
+    padding-left: 5px;
+  }
+
+  .desc p{
+    margin: 0;
+    padding-left: 5px;
+  }
+
+.desc2 {
+  font-size: 14px;
+  padding-left: 2px;
+  
+ }
+
+  .desc2 h4{
+    margin: 5px;
+  }
+
+  .desc2 p{
+    margin: 10px 0px 0px 5px;
+  }
+  
+.desc2 > i {
+	color: #0065FC;
+    margin: 25px 0px 0px 5px;
+    padding-top: 10px;
+
+}
+
+
+#minor{
+    background-color: #eee;
+    border-radius: 9px;
+    width:100%;
+    height: 300px;
+    display:flex;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: center;
+    
+  }
+  
+#minor > div:hover {
+	border: solid 2px black;
+}
+
+#minor > div {
+    background-color: white;
+    box-shadow: 0 0 3px #ccc;
+    border: solid 2px #eee;
+    border-radius: 9px;
+    margin: 1rem;
+    padding: 10px;
+    width: 80%;
+    height: 120px;
+    column-count: 2;
+    gap: 2px;
+  }
+  
+  
+ #minor > div > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 9px 0px 0px 9px; 
+    object-fit: cover;
+  }
+  
+.chart {
+    display: flex;
+    gap: 200px;
+}
+
+.chart > i {
+	padding-top: 25px;
+
+}
+  
+  .left3 {
+    background-color: white;
+    box-shadow: 0 0 3px #ccc;
+    border-radius: 9px;
+    width: inherit;
+    height: 300px;
+    
+    
+  }
+  
+  .left4 {
+    background-color: white;
+    box-shadow: 0 0 3px #ccc;
+    border-radius: 9px;
+    width: inherit;
+    height: 200px;
+    
+    
+  }
+  
+  .left3 > img{
+    border-radius: 9px 9px 0px 0px; 
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+
+.left4 > img{
+    border-radius: 9px 9px 0px 0px; 
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    
+  }
+  
+.footer {
+	column-count: 3;
+	background-color: #F2F2F2;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer > div {
+	padding: 10px;
+}
+
+
+
+.empty {
+	color: #eee;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  gap: 20px;
+  
+}
+
+
+.leftalone  {
+	height: 75%;
+    width: 270px;
+    border: solid 2px white;
+    border-radius: 12px;
+}
+
+.leftalone:hover {
+	border: solid 2px black;
+}
+
+.two {
+	height: 300px;
+    width: 270px;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	background-color: white;
+}
+
+.two > div {
+	height: 140px;
+    border: solid 2px white;
+    background-color: #eee;
+    border-radius: 12px; 
+}
+
+.left4:hover {
+	border: solid 2px black;
+}
+
+ .searchform input[type=text] {
+    padding: 20px;
+    font-size: 17px;
+    width: 150px;
+    height: 5px;
+    background: white;
+    border: 5px;
+  }
+  
+  .searchend {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    background: #0065FC;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0px 9px 9px 0px;
+  }
+  
+
+  .searchform{
+    display: flex;
+  }
+  
+  .map{
+  	width: 30px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 9px 0px 0px 9px; 
+    border: none;
+}

@@ -1,3 +1,5 @@
+
+
 body {
 	font-family: Raleway;
 }
@@ -418,4 +420,142 @@ h3 {
     font-size: 15px;
     border-radius: 9px 0px 0px 9px; 
     border: none;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+        max-width: device-width;
+      }
+      
+      p  {
+        font-size: 120%;
+      }
+      
+      h {
+        font-size: 120%;
+      }
+      
+      .menu {
+        
+     }
+     
+      .searching {
+        flex-flow: column wrap;
+      }
+      
+      .row {
+        flex-flow: column nowrap;
+      }
+      
+      .flex-container {
+        
+        
+      }
+      
+      #main {
+        display: block;
+          background-color: #eee;
+        border-radius: 9px;
+      display:flex;
+      justify-content: center;
+      }
+      
+      #main > div {
+        background-color: white;
+      border-radius: 9px;
+      padding: 10px;
+      width: 5rem;
+      height: 120px;
+      }
+      
+      #main > img {
+        width: 100%;
+      height: 200px;
+          padding: 0px;
+      }
+      
+      row1 {
+        
+      }
+      
+      .flex-container2 {
+        width: 100%;
+          flex-flow: column wrap;
+          height: 600px;
+      }
+      
+      #minor {
+        
+      }
+      
+      #minor > div {
+        width: 85%;
+          height: 200px;
+          padding: 6px;
+      }
+      
+      
+      .desc2 > i {
+        margin: 0px;
+          padding: 0px;
+          font-size: 60%;
+          
+      }
+      
+      .desc2 {
+        width: 98%;
+          margin: 2px;
+      }
+      
+      #Activities {
+        padding: 15px;
+      }
+      
+      #Activities > div {
+        
+      }
+      
+      .bottom {
+        margin-bottom: 20px;
+      }
+      
+      .bottom > div {
+        width: 95%;
+      }
+      
+      .leftalone {
+      
+      }
+      
+      .left3 {
+      
+      }
+      
+      .left3 > img {
+        height: 120px;
+      }
+      
+      .two {
+        width: 95%;
+      }
+      
+      
+      .footer {
+        column-count: 1;
+          display: flex;
+          flex-flow: column wrap;
+      }
+      
+      .footer > div {
+        width: 80%;
+      }
+      
+      .footer > div > p {
+        font-size: 120%;
+      }
+      
+      .empty {
+        display: none;
+      }
+
 }

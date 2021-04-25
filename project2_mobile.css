@@ -1,4 +1,141 @@
 
+@media only screen and (max-width: 480px) {
+		body {
+        	max-width: device-width;
+        }
+        
+        p  {
+        	font-size: 120%;
+        }
+        
+        h {
+        	font-size: 120%;
+        }
+        
+        .menu {
+        	
+       }
+       
+        .searching {
+        	flex-flow: column wrap;
+        }
+        
+        .row {
+        	flex-flow: column nowrap;
+        }
+        
+        .flex-container {
+        	
+        	
+        }
+        
+        #main {
+        	display: block;
+            background-color: #eee;
+   	 		border-radius: 9px;
+    		display:flex;
+    		justify-content: center;
+        }
+        
+        #main > div {
+        	background-color: white;
+    		border-radius: 9px;
+    		padding: 10px;
+    		width: 5rem;
+    		height: 120px;
+        }
+        
+        #main > img {
+        	width: 100%;
+    		height: 200px;
+            padding: 0px;
+        }
+        
+        row1 {
+        	d
+        }
+        
+        .flex-container2 {
+        	width: 100%;
+            flex-flow: column wrap;
+            height: 600px;
+        }
+        
+        #minor {
+        	
+        }
+        
+        #minor > div {
+        	width: 85%;
+            height: 200px;
+            padding: 6px;
+        }
+        
+        
+        .desc2 > i {
+        	margin: 0px;
+            padding: 0px;
+            font-size: 60%;
+            
+        }
+        
+        .desc2 {
+        	width: 98%;
+            margin: 2px;
+        }
+        
+        #Activities {
+        	padding: 15px;
+        }
+        
+        #Activities > div {
+        	
+        }
+        
+        .bottom {
+        	margin-bottom: 20px;
+        }
+        
+        .bottom > div {
+        	width: 95%;
+        }
+        
+        .leftalone {
+        	width:
+        }
+        
+        .left3 {
+        	height: 
+        }
+        
+        .left3 > img {
+        	height: 120px;
+        }
+        
+        .two {
+        	width: 95%;
+        }
+        
+        
+        .footer {
+        	column-count: 1;
+            display: flex;
+            flex-flow: column wrap;
+        }
+        
+        .footer > div {
+        	width: 80%;
+        }
+        
+        .footer > div > p {
+        	font-size: 120%;
+        }
+        
+        .empty {
+        	display: none;
+        }
+
+}
 
 body {
 	font-family: Raleway;
@@ -6,16 +143,12 @@ body {
 
 .flex-container {
     background-color: #F2F2F2;
-	height: 590px;
-	width: 1000px;
     border-radius: 16px;
     margin-bottom: 40px;
   }
   
  .flex-container2 {
     background-color: #F2F2F2;
-	height: 590px;
-	width: 380px;
     border-radius: 16px;
     
   }
@@ -92,7 +225,6 @@ li a {
 
 .searching {
   list-style-type: none;
-  display: flex;
   gap: 25px;
   padding: 20px 20px 3px 0px;
   font-size: 15px;
@@ -122,7 +254,6 @@ li a {
   background-color: #DEEBFF; 
   color: #0065FC;
   border: none;
-  height: 30px;
   width: 30px;
   font-size: 15px;
   border-radius: 20px;
@@ -190,6 +321,7 @@ h3 {
     margin: 1rem;
     width: 220px;
     height: 200px;
+    float: left;
   }
   #main > div > img{
     width: 210px;
@@ -297,9 +429,7 @@ h3 {
     background-color: white;
     box-shadow: 0 0 3px #ccc;
     border-radius: 9px;
-    width: inherit;
-    height: 300px;
-    
+    width: 
     
   }
   
@@ -332,14 +462,11 @@ h3 {
 	column-count: 3;
 	background-color: #F2F2F2;
     padding: 10px;
-    width: 100%;
 }
 
 .footer > div {
 	padding: 10px;
 }
-
-
 
 .empty {
 	color: #eee;
@@ -348,7 +475,6 @@ h3 {
 .bottom {
   display: flex;
   flex-wrap: wrap;
-  height: 400px;
   gap: 20px;
   
 }
@@ -420,190 +546,4 @@ h3 {
     font-size: 15px;
     border-radius: 9px 0px 0px 9px; 
     border: none;
-}
-
-@media only screen and (max-width: 480px) {
-  body {
-        max-width: device-width;
-      }
-      
-      p  {
-        font-size: 120%;
-      }
-      
-      h {
-        font-size: 120%;
-      }
-      
-      .menu {
-        display: flex;
-        flex-flow: row wrap-reverse;
-        padding: 20px 20px 3px 0px;
-        overflow: visible;
-     }
-
-     .logo {
-       padding: 0px;
-     }
-
-     .menu li:nth-child(2){
-
-     }
-
-
-     .searching li:nth-child(1) {
-      width: 100%;
-     
-    }
-    
-      .searching {
-        flex-flow: wrap;
-        
-      }
-
-      .info {
-          width: auto;
-  
-      }
-      
-      .row {
-        flex-flow: column nowrap;
-      }
-      
-      .flex-container {
-        width: auto;
-        height: auto;
-        
-      }
-      
-      #main {
-        display: block;
-          background-color: #eee;
-        border-radius: 9px;
-      justify-content: center;
-      }
-      
-      #main > div {
-        background-color: white;
-      border-radius: 9px;
-      padding: 10px;
-      width: auto;
-      height: auto;
-      }
-      
-      #main >div > img {
-        width: 100%;
-      height: 200px;
-          padding: 0px;
-      }
-      
-      row1 {
-        
-      }
-      
-      .flex-container2 {
-        width: 100%;
-          flex-flow: column wrap;
-          height: 600px;
-      }
-      
-      #minor {
-        height: auto;
-      }
-      
-      #minor > div {
-        width: 85%;
-          height: 120px;
-          padding: 6px;
-      }
-      
-      #minor > div >img {
-          height: 100%;
-      }
-      
-      .desc2 > i {
-        margin: 0px;
-          padding: 0px;
-          font-size: 60%;
-          
-      }
-
-      .desc2 i:nth-child(1) {
-        padding-left: 5px;
-        font-size: 120%;
-      }
-
-      .desc2 {
-        width: 98%;
-          margin: 2px;
-      }
-
-      .desc2 h4 {
-          margin-bottom: 20px;
-          font-size: 100%;
-      }
-
-      .desc2 p {
-        margin-bottom: 20px;
-        font-size: 100%;
-      }
-      
-      #Activities {
-        padding: 15px;
-        height: auto;
-      }
-      
-      .bottom {
-        margin-bottom: 20px;
-        height: auto;
-        padding: 10px;
-        justify-content: center;
-      }
-      
-      .bottom > div {
-        width: 95%;
-      }
-      
-      .leftalone {
-      
-      }
-      
-      .left3 {
-        height: 150px;
-        width: auto;
-      }
-      
-      .left3 > img {
-        height: 120px;
-      }
-      
-      .two {
-        width: 95%;
-        height: auto;
-      }
-
-      .left4 {
-        width: auto;
-        margin-bottom: 20px;
-      }
-      
-      
-      .footer {
-        column-count: 1;
-          display: flex;
-          flex-flow: column wrap;
-      }
-      
-      .footer > div {
-        width: 80%;
-      }
-      
-      .footer > div > p {
-        font-size: 120%;
-      }
-      
-      .empty {
-        display: none;
-      }
-
 }

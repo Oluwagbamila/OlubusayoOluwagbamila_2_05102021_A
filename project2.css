@@ -7,7 +7,7 @@ body {
 .flex-container {
     background-color: #F2F2F2;
 	height: 590px;
-	width: 1000px;
+	width: 78%;
     border-radius: 16px;
     margin-bottom: 40px;
   }
@@ -15,7 +15,7 @@ body {
  .flex-container2 {
     background-color: #F2F2F2;
 	height: 590px;
-	width: 380px;
+	width: 78%;
     border-radius: 16px;
     
   }
@@ -27,9 +27,14 @@ body {
     gap: 30px;
 }
 
+.navbar {
+  display: flex;
+}
+
 .menu {
   list-style-type: none;
-  overflow: hidden;
+  overflow: visible;
+  margin-left: auto;
 }
 
 li {
@@ -61,7 +66,7 @@ li a {
 	float: left;
     height: 60px;
     width: 160px;
-    padding: 25px 0px 25px 0px;
+    
 }
 
 .logo img {
@@ -331,8 +336,12 @@ h3 {
 .footer {
 	column-count: 3;
 	background-color: #F2F2F2;
+<<<<<<< HEAD
   padding: 10px;
   width: 100%;
+=======
+    width: 70%;
+>>>>>>> 8825872c2923bf39b836c94eecf9f5677fd1994f
 }
 
 .footer > div {
@@ -350,6 +359,7 @@ h3 {
   flex-wrap: wrap;
   height: 400px;
   gap: 20px;
+  width: 79%
   
 }
 
@@ -389,7 +399,7 @@ h3 {
  .searchform input[type=text] {
     padding: 20px;
     font-size: 17px;
-    width: 150px;
+    width: 9em;
     height: 5px;
     background: white;
     border: 5px;
@@ -420,7 +430,13 @@ h3 {
     font-size: 15px;
     border-radius: 9px 0px 0px 9px; 
     border: none;
-}
+  }
+  .navbar {
+      display: flex;
+      flex-flow: row wrap;
+      
+    }
+
 
 
 @media only screen and (max-width: 480px) {
@@ -429,11 +445,19 @@ h3 {
       }
       
       p  {
+<<<<<<< HEAD
         font-size:
       }
       
       h {
         font-size: 
+=======
+        font-size: 100%;
+      }
+      
+      h1 {
+        font-size: 100%;
+>>>>>>> 8825872c2923bf39b836c94eecf9f5677fd1994f
       }
     
     .navbar {
@@ -442,10 +466,22 @@ h3 {
       
       .menu {
         display: flex;
+<<<<<<< HEAD
         flex-flow: row wrap;
         padding: 20px 20px 3px 0px;
         overflow: visible;
         width: 100%;
+=======
+        flex-flow: column wrap-reverse;
+        padding: 20px 20px 3px 0px;
+        overflow: visible;
+        width: 100%;
+     }
+
+     .navbar {
+       display: block;
+       flex-flow: row wrap;
+>>>>>>> 8825872c2923bf39b836c94eecf9f5677fd1994f
      }
 
      .logo {
@@ -483,17 +519,47 @@ h3 {
       width: 10rem;
      }
 
+<<<<<<< HEAD
      .menu li:nth-child(2){
         float: 
       }
+=======
+     .active {
+       float: left;
+     }
+
+     #signup {
+       float: right;
+     }
+
+     #acc {
+       float: right;
+     }
+
+     .menu li:nth-child(1){
+        float: right;
+     }
+>>>>>>> 8825872c2923bf39b836c94eecf9f5677fd1994f
 
       .searchform {
         width: 20rem;
       }
 
+<<<<<<< HEAD
       .searching li:nth-child(1) {
         width: 100%;
        
+=======
+     .searching li:nth-child(1) {
+      width: 100%;
+     
+    }
+    
+      .searching {
+        flex-flow: wrap;
+        width: 23.5rem
+        
+>>>>>>> 8825872c2923bf39b836c94eecf9f5677fd1994f
       }
       
         .searching {
@@ -508,20 +574,27 @@ h3 {
         }
 
 
+      .second a {
+        width: auto;
+        padding-right: 0.25em;
+      }
+
       .info {
-          width: auto;
+          width: 80%;
   
       }
       
       .row {
         flex-flow: column-reverse nowrap;
+<<<<<<< HEAD
         gap: 70%;
         overflow: hidden;
         width: 98%;
+=======
+>>>>>>> 8825872c2923bf39b836c94eecf9f5677fd1994f
       }
       
       .flex-container {
-        width: auto;
         height: auto;
         margin-bottom: 0rem;
         background-color: white;
@@ -578,10 +651,15 @@ h3 {
       width: 98%;
     }
       .flex-container2 {
+<<<<<<< HEAD
         margin-bottom: 2rem;
         width: 98%;
         flex-flow: column wrap;
         height: 600px;
+=======
+          flex-flow: column wrap;
+          height: 600px;
+>>>>>>> 8825872c2923bf39b836c94eecf9f5677fd1994f
       }
       
     .chart {
@@ -651,7 +729,6 @@ h3 {
       .bottom {
         margin-bottom: 20px;
         height: auto;
-        padding: 10px;
         justify-content: center;
       }
       
@@ -687,11 +764,15 @@ h3 {
         column-count: 1;
           display: flex;
           flex-flow: column wrap;
+<<<<<<< HEAD
           padding: 0px;
+=======
+          width: 79%;
+>>>>>>> 8825872c2923bf39b836c94eecf9f5677fd1994f
       }
       
       .footer > div {
-        width: 80%;
+        width: 90%;
       }
       
       .footer > div > p {
@@ -702,4 +783,3 @@ h3 {
         display: none;
       }
 
-}

@@ -7,7 +7,7 @@ body {
 .flex-container {
     background-color: #F2F2F2;
 	height: 590px;
-	width: 78%;
+	width: 150rem;
     border-radius: 16px;
     margin-bottom: 40px;
   }
@@ -15,7 +15,7 @@ body {
  .flex-container2 {
     background-color: #F2F2F2;
 	height: 590px;
-	width: 78%;
+	width: 100%;
     border-radius: 16px;
     
   }
@@ -37,6 +37,11 @@ body {
   margin-left: auto;
 }
 
+.acts {
+  display: flex;
+  flex-flow: row;
+}
+
 li {
   overflow: hidden;
   background-color: white;
@@ -53,7 +58,11 @@ li a {
   text-decoration: none;
 }
 
-.menu > li a:hover {
+.menu > li  a:hover {
+	text-decoration: underline;
+}
+
+.acts > li  a:hover {
 	text-decoration: underline;
 }
 
@@ -133,6 +142,7 @@ li a {
   border-radius: 20px;
   float: left;
   padding: 3px;
+  
 }
 
 
@@ -221,12 +231,10 @@ h3 {
 
   .desc h4{
     margin: 0;
-    padding-left: 5px;
   }
 
   .desc p{
     margin: 0;
-    padding-left: 5px;
   }
 
 .desc2 {
@@ -236,17 +244,15 @@ h3 {
  }
 
   .desc2 h4{
-    margin: 5px;
+    margin-bottom: 0.2rem;
   }
 
   .desc2 p{
-    margin: 10px 0px 0px 5px;
+    margin-bottom: 1rem;
   }
   
 .desc2 > i {
 	color: #0065FC;
-    margin: 25px 0px 0px 5px;
-    padding-top: 10px;
 
 }
 
@@ -290,7 +296,7 @@ h3 {
   
 .chart {
     display: flex;
-    gap: 200px;
+    gap: 16rem;
 }
 
 .chart > i {
@@ -302,7 +308,6 @@ h3 {
     background-color: white;
     box-shadow: 0 0 3px #ccc;
     border-radius: 9px;
-    width: inherit;
     height: 300px;
     
     
@@ -312,7 +317,6 @@ h3 {
     background-color: white;
     box-shadow: 0 0 3px #ccc;
     border-radius: 9px;
-    width: inherit;
     height: 200px;
     
     
@@ -344,27 +348,23 @@ h3 {
 	padding: 10px;
 }
 
-
-
 .empty {
 	color: #eee;
 }
 
 .bottom {
   display: flex;
-  flex-wrap: wrap;
   height: 400px;
   gap: 20px;
-  width: 79%
   
 }
 
 
 .leftalone  {
-	height: 75%;
-    width: 270px;
+    width: 300px;
     border: solid 2px white;
     border-radius: 12px;
+    height: 300px;
 }
 
 .leftalone:hover {
@@ -373,7 +373,7 @@ h3 {
 
 .two {
 	height: 300px;
-    width: 270px;
+    width: 300px;
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
@@ -395,7 +395,6 @@ h3 {
  .searchform input[type=text] {
     padding: 20px;
     font-size: 17px;
-    width: 9em;
     height: 5px;
     background: white;
     border: 5px;
@@ -436,9 +435,9 @@ h3 {
 
 @media only screen and (max-width: 480px) {
   body {
-        max-width: device-width;
+        align-self: center;
       }
-    
+  
     .navbar {
       width: 98%;
     }
@@ -458,36 +457,40 @@ h3 {
 
      .logo  img {
       object-fit: contain;
-      height: 80px;
+      height: 110px;
       width: 90px;
+      padding-left: 20px;
      }
 
      #signup {
        margin-left: auto;
-       margin-right: 2rem;
        display: inline;
      }
 
      .acts {
        display: flex;
        flex-flow: row-reverse;
-       width: 98%;
+       padding: 0px;
      }
 
      #acc {
       border-bottom: 3px solid;
       margin-bottom: 1rem;
-      width: 50%;
+      width: 60%;
      }
 
      .active {
       border-bottom: 3px solid #eee;
       margin-bottom: 1rem;
-      width: 10rem;
+      width: 14rem;
+     }
+
+     .reservia-description {
+       padding-left: 1.5rem;
      }
 
       .searchform {
-        width: 20rem;
+        margin-left: 1rem;
       }
 
       .searching li:nth-child(1) {
@@ -503,14 +506,9 @@ h3 {
   
         .second a {
           width: auto;
-          padding-right: 0.25em;
+          padding-right: 4rem;
+          height: 1rem;
         }
-
-
-      .second a {
-        width: auto;
-        padding-right: 0.25em;
-      }
 
       .info {
           width: 80%;
@@ -554,14 +552,12 @@ h3 {
       }
 
       #main p {
-        font-size: 80%;
-        margin: 0.3rem 0px;
-        
+        font-size: 98%;
       }
 
       #main h4 {
-        font-size: 80%;
-      
+        font-size: 98%;
+        margin: 0px;
       }
 
    .desc {
@@ -569,35 +565,37 @@ h3 {
       }
 
     .desc > i {
-      margin: 0px;
+    margin: 0px;
     padding: 0px;
     font-size: 60%;
     }
     
-    .desc > i:nth-child(1){
-      padding-left: 5px;
-    }
 
     .row1{
-      width: 98%;
+      width: 96%;
     }
       .flex-container2 {
         margin-bottom: 2rem;
-        width: 98%;
         flex-flow: column wrap;
         height: 600px;
       }
       
     .chart {
       gap: 8rem;
+      padding-right: 20px;
     }
+
+    .chart > i {
+      margin-left: auto;
+    }
+
       #minor {
         height: auto;
       }
       
       #minor > div {
         width: 85%;
-          height: 120px;
+          height: 130px;
           padding: 6px;
       }
       
@@ -606,14 +604,13 @@ h3 {
       }
 
       #minor h4 {
-        font-size: 80%;
+        font-size: 98%;
       }
       
       #minor p {
-        font-size: 80%;
+        font-size: 98%;
         padding-top: 0.2rem;
-         padding-bottom: 0.6rem;
-}
+         padding-bottom: 0.1rem;
       }
 
       .desc2 > i {
@@ -623,27 +620,16 @@ h3 {
           
       }
 
-      .desc2 i:nth-child(1) {
-        padding-left: 5px;
-        font-size: 120%;
-      }
-
-      .desc 2:nth-child(5){
-        color: #eee;
-      }
-
       .desc2 {
         width: 98%;
           margin: 2px;
       }
 
       .desc2 h4 {
-          margin-bottom: 20px;
           font-size: 100%;
       }
 
       .desc2 p {
-        margin-bottom: 20px;
         font-size: 100%;
       }
       
@@ -653,6 +639,7 @@ h3 {
       }
       
       .bottom {
+        flex-flow: column wrap;
         margin-bottom: 20px;
         height: auto;
         justify-content: center;
@@ -664,7 +651,7 @@ h3 {
       }
       
       .leftalone {
-        height
+        height: 150px;
       }
       
       .left3 {
@@ -706,4 +693,4 @@ h3 {
       .empty {
         display: none;
       }
-
+    }

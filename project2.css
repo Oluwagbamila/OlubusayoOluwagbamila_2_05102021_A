@@ -6,7 +6,7 @@ body {
 
 .flex-container {
     background-color: #F2F2F2;
-	height: 590px;
+	height: auto;
 	width: 150rem;
     border-radius: 16px;
     margin-bottom: 40px;

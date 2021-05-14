@@ -1,53 +1,62 @@
-@media only screen and (max-width: 800px) and (min-width: 481px){
-    .searching {
-      flex-flow: row wrap;
-    }
-
-    .second a {
-      width: auto;
-      padding-right: 2rem;
-      height: 1rem;
-    }
-
-    .row {
-      flex-flow: column-reverse wrap;
-      width: 98%;
-      height: auto;
-    }
-    .chart {
-      gap: 70%;
-      padding-left: 2rem;
-    }
-
-    .flex-container {
-      flex-flow: row wrap;
-      width: 99%;
-      height: auto;
-    }
-    
-    #main > div {
-      width: 28%;
-    }
-
-    #main > div > img {
-      width: 95%;
-    }
-    .flex-container2 {
-      width: 99%;
-    }
-
-    .bottom {
-      flex-flow: row wrap;
-      height: auto;
-      margin-bottom: 2rem;
-    }
-
-    .leftalone {
-      width: 48%;
-    }
-
-    .two {
-      width: 48%;
-    }
-    
+@media only screen and (max-width: 800px) and (min-width: 481px) {
+  .searching {
+    flex-flow: row wrap;
   }
+
+  .second a {
+    width: auto;
+    padding-bottom: 15%;
+    height: 1rem;
+  }
+
+  .row {
+    flex-flow: column-reverse wrap;
+    width: 98%;
+    height: auto;
+  }
+  .chart {
+    gap: 70%;
+    padding-left: 2rem;
+  }
+
+  .flex-container {
+    flex-flow: row wrap;
+    width: 99%;
+    height: auto;
+  }
+
+  #main > figure {
+    width: 28%;
+  }
+
+  #main > figure > img {
+    width: 95%;
+  }
+  .flex-container2 {
+    width: 99%;
+  }
+
+  .bottom {
+    flex-flow: row wrap;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .left3 {
+    margin: 2px;
+    padding-left: 2px;
+    width: 48%;
+  }
+
+  .left4 {
+    margin: 5px;
+  }
+
+  .leftalone {
+    width: 48%;
+  }
+
+  .two {
+    width: 48%;
+  }
+}
